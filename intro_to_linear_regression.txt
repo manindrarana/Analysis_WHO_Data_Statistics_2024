@@ -18,4 +18,10 @@ minimum also to get better quantify on average squared mean difference between t
 actual values 
 
 The convextiy is really important property of cost function to get one global minimum
-making easy for 
+making easy for gradient descent to converge to optimal solution 
+
+Also we have to know that the in gradient descent if the gradient or the partial derivative 
+comes closer to zero the paramters stop updating 
+
+Also we can check the gradient descent is converging porperly during the training by monitoring 
+the cost function nad over it's iterations 
