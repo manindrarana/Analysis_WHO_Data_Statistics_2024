@@ -1,0 +1,21 @@
+So linear regression is done to induce the regression model from training set x and target y
+
+We also have here cost function as called as MSE whcih role in linear regression is to 
+minimize the error from the predicted and actual values 
+
+Here we also uses the gradient descent just to minimize the cost function and to get the 
+value of the theta and theta1
+
+When talking about the learning rate is the step size for the parameters where being too small
+results in slwo convergence where too large being result in either divergence or overshoot the algorithm
+
+Also more information on updating parameters during the gradient descent is computing the 
+partial derivative of cost function with respective theta0 and theta1 and updating parameters
+using gradient descent update rules 
+
+So mean squaredd  error is commonly used here because its more kinda convex to find the global
+minimum also to get better quantify on average squared mean difference between the predicted and 
+actual values 
+
+The convextiy is really important property of cost function to get one global minimum
+making easy for 
